@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+#top_header {
+    min-height: 100vh;
+    background:linear-gradient(
+        #00000088,
+        #000000d3,
+        #00000088
+        ), url(../images/background.jpg) no-repeat
+}
+
+#top_header .top_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    height: 51px;
+}
+
+#top_header .header_content {
+    min-height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#top_header .top_header_text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left_nav img {
+    width: 115px;
+}
+
+.right_nav .sign_in_btn {
+    background: red;
+    padding: 6px 10px;
+    margin: 8px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.right_nav .language_select {
+    height: 29px;
+    padding: 6px 8px;
+}
+
+#email_box{
+    height: 50px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+#email_box .email_input{
+    flex: 3;
+}
+
+#email_box .get_started_btn{
+    flex: 1;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
